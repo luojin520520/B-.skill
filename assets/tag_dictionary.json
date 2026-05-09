@@ -1,0 +1,15 @@
+{
+  "scene": [
+    "弹幕短句",
+    "评论区互动",
+    "安利文案",
+    "吐槽整活",
+    "理性分析",
+    "中性说明"
+  ],
+  "polarity": ["neg", "neu", "pos"],
+  "formality": ["low", "mid", "high"],
+  "meme_density": ["low", "med", "high"],
+  "interaction_strength": ["low", "med", "high"],
+  "aggression_risk": ["low", "med", "high"]
+}

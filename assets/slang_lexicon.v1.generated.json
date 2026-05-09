@@ -1,0 +1,107 @@
+{
+  "_meta": {
+    "version": "v1-generated",
+    "schema": "bili_slang_v1",
+    "generated_candidates": 5,
+    "description": "由 build_slang_lexicon.py 自动候选合并得到，待人工审核"
+  },
+  "awsl": {
+    "variants": ["阿伟死了", "AWSL", "awsl"],
+    "category": "情绪词",
+    "usage_rules": {
+      "preferred_scene": ["弹幕短句", "评论区互动"],
+      "formality_max": "mid"
+    },
+    "review": {
+      "review_status": "approved",
+      "reviewer": "seed",
+      "reviewed_at": "2026-05-09T00:00:00Z",
+      "confidence": 0.95,
+      "auto_frequency": 182,
+      "last_auto_seen": "v1"
+    },
+    "evidence": {
+      "frequency": 182,
+      "source": "auto_latin",
+      "examples": ["这波awsl", "awsl太可爱了"]
+    }
+  },
+  "yyds": {
+    "variants": ["yyds", "YYDS", "永远的神"],
+    "category": "玩梗词",
+    "usage_rules": {
+      "preferred_scene": ["安利文案", "评论区互动"],
+      "formality_max": "mid"
+    },
+    "review": {
+      "review_status": "approved",
+      "reviewer": "seed",
+      "reviewed_at": "2026-05-09T00:00:00Z",
+      "confidence": 0.94,
+      "auto_frequency": 109,
+      "last_auto_seen": "v1"
+    },
+    "evidence": {
+      "frequency": 109,
+      "source": "auto_latin",
+      "examples": ["这番yyds", "yyds冲冲冲"]
+    }
+  },
+  "爷青回": {
+    "variants": ["爷青回"],
+    "category": "情绪词",
+    "usage_rules": {
+      "preferred_scene": ["评论区互动", "吐槽整活"],
+      "formality_max": "mid"
+    },
+    "review": {
+      "review_status": "pending",
+      "reviewer": "",
+      "reviewed_at": "",
+      "confidence": 0.45
+    },
+    "evidence": {
+      "frequency": 63,
+      "source": "auto_cjk",
+      "examples": ["这段属于爷青回", "爷青回了家人们"]
+    }
+  },
+  "绷不住": {
+    "variants": ["绷不住", "绷不住了"],
+    "category": "情绪词",
+    "usage_rules": {
+      "preferred_scene": ["评论区互动", "吐槽整活"],
+      "formality_max": "low"
+    },
+    "review": {
+      "review_status": "pending",
+      "reviewer": "",
+      "reviewed_at": "",
+      "confidence": 0.45
+    },
+    "evidence": {
+      "frequency": 51,
+      "source": "auto_cjk",
+      "examples": ["这波真的绷不住", "绷不住了哈哈"]
+    }
+  },
+  "奈斯": {
+    "variants": ["奈斯", "nice"],
+    "category": "圈层礼貌词",
+    "usage_rules": {
+      "preferred_scene": ["弹幕短句", "安利文案"],
+      "formality_max": "mid"
+    },
+    "review": {
+      "review_status": "pending",
+      "reviewer": "",
+      "reviewed_at": "",
+      "confidence": 0.42
+    },
+    "evidence": {
+      "frequency": 39,
+      "source": "auto_cjk",
+      "examples": ["奈斯奈斯", "作画太奈斯了"]
+    }
+  }
+}

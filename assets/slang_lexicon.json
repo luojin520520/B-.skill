@@ -1,0 +1,83 @@
+{
+  "_meta": {
+    "version": "v1",
+    "schema": "bili_slang_v1",
+    "description": "B站高频词典 v1，支持自动候选与人工审核字段"
+  },
+  "awsl": {
+    "variants": ["阿伟死了", "AWSL", "awsl"],
+    "category": "情绪词",
+    "usage_rules": {
+      "preferred_scene": ["弹幕短句", "评论区互动"],
+      "formality_max": "mid"
+    },
+    "review": {
+      "review_status": "approved",
+      "reviewer": "seed",
+      "reviewed_at": "2026-05-09T00:00:00Z",
+      "confidence": 0.95
+    },
+    "evidence": {
+      "frequency": 0,
+      "source": "seed",
+      "examples": []
+    }
+  },
+  "yyds": {
+    "variants": ["yyds", "YYDS", "永远的神"],
+    "category": "玩梗词",
+    "usage_rules": {
+      "preferred_scene": ["安利文案", "评论区互动"],
+      "formality_max": "mid"
+    },
+    "review": {
+      "review_status": "approved",
+      "reviewer": "seed",
+      "reviewed_at": "2026-05-09T00:00:00Z",
+      "confidence": 0.94
+    },
+    "evidence": {
+      "frequency": 0,
+      "source": "seed",
+      "examples": []
+    }
+  },
+  "破防": {
+    "variants": ["破防", "我破防了", "绷不住了"],
+    "category": "情绪词",
+    "usage_rules": {
+      "preferred_scene": ["吐槽整活", "评论区互动"],
+      "formality_max": "low"
+    },
+    "review": {
+      "review_status": "approved",
+      "reviewer": "seed",
+      "reviewed_at": "2026-05-09T00:00:00Z",
+      "confidence": 0.93
+    },
+    "evidence": {
+      "frequency": 0,
+      "source": "seed",
+      "examples": []
+    }
+  },
+  "好康": {
+    "variants": ["好康", "好看", "很顶"],
+    "category": "圈层礼貌词",
+    "usage_rules": {
+      "preferred_scene": ["弹幕短句", "安利文案"],
+      "formality_max": "mid"
+    },
+    "review": {
+      "review_status": "approved",
+      "reviewer": "seed",
+      "reviewed_at": "2026-05-09T00:00:00Z",
+      "confidence": 0.88
+    },
+    "evidence": {
+      "frequency": 0,
+      "source": "seed",
+      "examples": []
+    }
+  }
+}

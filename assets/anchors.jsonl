@@ -1,0 +1,4 @@
+{"id":"a1","text":"这段真的好康，节奏拉满了。","scene":"弹幕短句","polarity":"pos","formality":"low","meme_density":"med","interaction_strength":"med","aggression_risk":"low","weight":1.0,"source_id":"seed"}
+{"id":"a2","text":"不是硬吹，细节真有东西，建议二刷。","scene":"评论区互动","polarity":"pos","formality":"mid","meme_density":"low","interaction_strength":"med","aggression_risk":"low","weight":1.0,"source_id":"seed"}
+{"id":"a3","text":"先别急着开喷，逻辑链其实是完整的。","scene":"理性分析","polarity":"neu","formality":"mid","meme_density":"low","interaction_strength":"low","aggression_risk":"low","weight":1.0,"source_id":"seed"}
+{"id":"a4","text":"这波属于高能预警，后面信息量直接起飞。","scene":"安利文案","polarity":"pos","formality":"low","meme_density":"med","interaction_strength":"high","aggression_risk":"low","weight":1.0,"source_id":"seed"}

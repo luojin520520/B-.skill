@@ -1,0 +1,2 @@
+# Core pipeline only uses Python stdlib.
+# Optional: install `pytest` if you prefer pytest runner.

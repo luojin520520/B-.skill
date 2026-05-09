@@ -1,0 +1,30 @@
+{
+  "profile_version": "v1",
+  "updated_at": "2026-05-09T00:00:00Z",
+  "style_density_default": "med",
+  "formality_default": "mid",
+  "max_aggression_default": "low",
+  "weights": {
+    "culture_consistency": 0.35,
+    "semantic_fidelity": 0.25,
+    "scene_match": 0.2,
+    "slang_naturalness": 0.1,
+    "safety": 0.1
+  },
+  "thresholds": {
+    "min_style_score_avg": 78.0,
+    "min_style_score_bucket": 70.0,
+    "max_over_meme_rate": 0.2,
+    "max_aggression_shift": 0.15
+  },
+  "distribution": {
+    "scene": {
+      "弹幕短句": 0.22,
+      "评论区互动": 0.28,
+      "安利文案": 0.14,
+      "吐槽整活": 0.14,
+      "理性分析": 0.12,
+      "中性说明": 0.1
+    }
+  }
+}

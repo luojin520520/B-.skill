@@ -1,0 +1,6 @@
+{"bucket":"弹幕短句","input":"太可爱了呜呜呜","target_style":"high_bili","notes":"短促高情绪"}
+{"bucket":"评论区互动","input":"这集节奏不错，信息密度高","target_style":"mid_bili","notes":"互动友好"}
+{"bucket":"安利文案","input":"这部作品值得推荐","target_style":"mid_bili","notes":"轻安利"}
+{"bucket":"吐槽整活","input":"这操作也太离谱了","target_style":"high_bili","notes":"吐槽但不攻击"}
+{"bucket":"理性分析","input":"从叙事结构看有三个关键转折","target_style":"low_bili","notes":"分析保持清晰"}
+{"bucket":"中性说明","input":"以下是功能更新内容","target_style":"low_bili","notes":"中性表达"}
