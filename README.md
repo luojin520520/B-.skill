@@ -20,19 +20,6 @@
 
 ## `/改写` 写 README：**先跑引擎，再动笔**（别空口）
 
-你骂得对：之前有人**没落 `runtime_engine.py rewrite`**就改正文，那叫**跳步骤**，等于白装 B友.skill。
-
-**硬性流程（对上 [`SKILL.md`](./SKILL.md)）：**
-
-1. `cd` 到本仓库根（`tools/`、`assets/` 在这层）。
-2. 把待改文稿塞进引擎（全文太长可分批，最后合并锚点去重）：  
-   `python3 tools/runtime_engine.py rewrite --input "$(cat README.md)"`  
-   或先：`python3 tools/runtime_engine.py rewrite --input "$(sed -n '1,120p' README.md)"`
-3. **必须用 JSON 里的 `anchors`：** 看人话前先看 **命中了哪几条、`scene`/`cluster` 是啥**——那才是「站味浓度」论据，不是你脑补。
-4. **再改写正文**：话术节奏对齐锚点句（推荐 / 吐槽 / 理性 / 公告条目的比例别歪），并保持下面表格与命令一字不差可执行。
-5. **安全检查**：攻击性、个人隐私、过载玩梗照旧按 SKILL 「输出规范」过滤一遍再发布。
-
-引擎当前吐的是「改写结果」壳子 **+ 原文 + 参考锚点摘录**；**真正把 Markdown 换血**，是第 4 步由人/Agent **照着锚点写**——这步以前是缺的，补上。
 
 <details>
 <summary><b>本次示例：对 README 前 80 行跑 <code>/改写</code> 捞到的锚点摘要</b>（点开对照）</summary>
